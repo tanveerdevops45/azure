@@ -1,0 +1,72 @@
+Azure checklist
+	1.	Create a tenant
+	2.	Create a user
+	3.	Create a group
+	4.	Switch tenants – But why? (to switch from personal to co-pass/tenant)
+	5.	Create a role
+	6.	Create a custom role (available only on P2)
+	7.	Create a custom domain in AAD
+	8.	Create a dynamic group in AAD
+	9.	Assign a license to a user
+	10.	Add any role to users
+	11.	Create an administrative unit
+	12.	Browse devices settings in AAD
+	13.	Try bulk operations like create 10 users with csv file
+	14.	Create external user
+	15.	Enable some users/groups to reset their own password
+	16.	What is AAD connect?
+
+RBAC
+  17. Add roles to the user to access storage account specific container
+  18. Create a custom role to remove delete permission of blob data
+  19. Give full contributor role in resource group scope  
+
+Manage subscriptions and Governance:
+20. Create a subscription
+21. Create a cost alert in subscription.
+22. Create a budget in subscription.
+23. Create a resource lock in resource group.
+24. Create a policy to only be able to create certain size of VMs
+25. Test policy
+26. Check policy compliance.
+27. Move resources from one resource group to other subscription/region.
+28. Create a management group
+
+Storage account:
+  29. Create a storage account
+  30. Create a container
+  31. Create a file share
+  32. Create a Queue
+  33. Create a table
+  34. Generate a SAS (shared access signature) to access blob container content
+  35. Create a stored access policy for a container/object
+  36. Enable geo-redundant storage.
+  37. Recover file share via soft delete enable.
+  38. Take a snapshot of a container
+  39. Enable versioning of a container content.
+  40.	Create an alert rule in storage account monitoring.
+	41.	Use azcopy to copy content from one storage account to other.
+	42.	Perform object replication in storage account.
+	43.	Create an Azure File share.
+	44.	Deploy Azure File sync.
+
+Azure Virtual Machines:
+45. Create a virtual machine
+46. Create a bastion service
+47. Create a vm scale set
+
+ARM Template
+48. Create an arm template spec.
+49. Use a bash script for VM creation.
+50. Use an existing disk for a new VM
+51. Encrypt the disk used by VM by SSE and ADE
+
+Webapp
+52. Create a webapp
+53. Explore web app deployment options and deployment slots
+54. Create/explore backups.
+
+Azure container instance
+55. Create an azure container instance.
+56. Create an container group
+
