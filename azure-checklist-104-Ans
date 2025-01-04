@@ -1,5 +1,5 @@
 Azure checklist
-	1.	Create a tenant
+	1.	Create a tenant		https://learn.microsoft.com/en-us/entra/fundamentals/create-new-tenant#to-create-a-new-tenant
 	2.	Create a user
 	3.	Create a group
 	4.	Switch tenants – But why? (to switch from personal to co-pass/tenant)
