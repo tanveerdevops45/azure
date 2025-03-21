@@ -98,4 +98,18 @@ DNS:
 # ping db.devserver.local
 db.devserver.local
 
+72) Create a public DNS zone.  #video 157.
+Make sure you have a domain first.
+Register this domain in Azure public DNS zone.
+Add these Azure nameservers in the domain registrar
+(e.g., Namecheap).
+# nslookup -type=SOA domain7.com
 
+Secure Access to Virtual Networks:
+
+73) Create network security groups.
+74) Connect NSG to subnet and NIC.
+75) Create an application security group.
+76) Create a load balancer.
+	•	Add VMs in backend to test.
+77) Create an application gateway.
