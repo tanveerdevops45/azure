@@ -73,3 +73,29 @@ Azure container instance
 Random:
 	1. Create a Availability group for DB's
 
+
+57) Create a container app.
+58) Create Azure container registry.
+59) Push and pull images to this ACR.
+
+Virtual Networking:
+
+60) Create a vnet.
+61) Deploy a resource/VM in this vnet.
+62) Create a subnet in this vnet.
+63) Create a public IP address.
+64) Associate public IP address with NIC interface card.
+65) Open port to allow RDP access.
+66) Create a firewall.
+67) Create a route table.
+68) Create a VNet peering.
+69) Create a network gateway.
+
+DNS:
+
+70) Create a private DNS zone.
+71) Link VNet to DNS zone. Create two records for the two VMs in this VNet and try to access with the other VM from one using the record that you have set.
+# ping db.devserver.local
+db.devserver.local
+
+
