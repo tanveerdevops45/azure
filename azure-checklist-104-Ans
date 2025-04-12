@@ -1,5 +1,13 @@
 Azure checklist
 	1.	Create a tenant		https://learn.microsoft.com/en-us/entra/fundamentals/create-new-tenant#to-create-a-new-tenant
+what is a tenant:
+In Azure, a tenant is essentially a dedicated and trusted instance of Azure Active Directory (Azure AD) that your organization receives when it signs up for Microsoft cloud services like Azure, Microsoft 365, or Intune.
+Think of a tenant like this:
+It’s your organization’s space in Azure AD.
+It stores and manages identities (users, groups, devices).
+It’s tied to a single, unique domain, such as yourcompany.onmicrosoft.com, but you can also add custom domains like yourcompany.com.
+
+
 	2.	Create a user
 	3.	Create a group
 	4.	Switch tenants – But why? (to switch from personal to co-pass/tenant)
