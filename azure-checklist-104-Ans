@@ -7,7 +7,9 @@ It’s your organization’s space in Azure AD.
 It stores and manages identities (users, groups, devices).
 It’s tied to a single, unique domain, such as yourcompany.onmicrosoft.com, but you can also add custom domains like yourcompany.com.
 
+## Azure Tenant Structure
 
+![Azure Tenant Diagram] (./ChatGPT Image Apr 12, 2025, 03_48_01 PM.png)
 	2.	Create a user
 	3.	Create a group
 	4.	Switch tenants – But why? (to switch from personal to co-pass/tenant)
